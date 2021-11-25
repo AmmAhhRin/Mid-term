@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+
+
+.carousel-inner .carousel-item{
+    height: 70vh;
+    width: 100%;
+}
+.carousel-caption h5{
+    font-size: 4.3vw;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: azure;
+    opacity: 80%;
+}
+.carousel-caption p{
+    font-size: 1.2vw;
+    color: azure;
+    background-color: black;
+    opacity: 70%;
+    height: 4vh;
+    width: fit-content;
+    margin-left: 0vw;
+}
+.navbar{
+    height: auto;
+    width: 100%;
+}
+.nav-item{
+    font-size: 1.2vw;
+    font-family: 'Poppins', sans-serif;
+    height: 5vh;
+    margin-left: 2vw;
+}
+.body-container{
+    margin: 3vw;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.body-content{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.main{
+    width: 65%;
+}
+.main .card{
+    height: 90vh;
+    margin-left: 3.5vh;
+    margin-right: 3.5vh;
+    justify-content: left;
+    background-color: rgb(211, 206, 206);
+    box-shadow: rgb(209, 206, 206) 1px 0px 8px 2px;
+    z-index: 5;
+}
+.body-container h3{
+    font-size: 3vw;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+    margin-left: 20vw;
+}
+.card-body h4{
+    font-size: 1.7vw;
+    font-weight: bold;
+}
+.card-body h5{
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+.card-body p{
+    font-size: 1.2vw;
+}
+
+.about-me{
+    margin-left: 5vw;
+    text-align: center;
+    width: 25%;
+}
+.about-me .btn{
+    width: 8vw;
+    height: 6vh;
+    font-size: 1.05vw;
+    font-weight: bold;
+}
+.footer-container{
+    margin-top: 5vh;
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    flex-direction: column;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(211, 206, 206);
+    height: 25vw;
+    width: 100%;
+    /* align-items: center; */
+}
+.footer-container p{
+    margin-top: 5vh;
+    margin-left: 7vw;
+    font-size: 2vw;
+}
+.footer-content input{
+    width: 40vw;
+    height: 7vh;
+    font-size: 1.3vw;
+    border: none;
+    margin-left: 7vw;
+    margin-top: 3vh;
+    padding-left: 1vw;
+}
+.footer-content .btn-primary{
+    margin-left: 2vw;
+    width: 13vw;
+    height: 10vh;
+    font-size: 1.7vw;
+}
+.footer-content .btn-danger{
+    margin-left: 14vw;
+    width: 13vw;
+    height: 10vh;
+    font-size: 1.7vw;
+}
+.footer-content .icon ul li {
+    list-style-type: none;
+    padding-left:2vw;
+    padding-right: 2vw;
+}
+.footer-content .icon ul{
+    display: flex;
+    flex-direction: row;
+}
+.info ul li:hover{
+    color: crimson;
+    font-weight: bold;
+}
+.icon{
+    margin-top: 8.5vh;
+    margin-left: 31vw;
+}
+.icon ul li i{
+    font-size: 3.5vw;
+}
+.icon ul li i:hover{
+    color: crimson;
+}
+.footer-content h5{
+    font-size: 1vw;
+    margin-left: 37vw;
+}
